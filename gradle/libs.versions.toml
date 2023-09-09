@@ -5,6 +5,8 @@ compose-bom = "2023.09.00"
 
 androidxActivityCompose = "1.7.2"
 
+ktlint = "11.5.1"
+
 [libraries]
 compose-bom = { module = "androidx.compose:compose-bom", version.ref = "compose-bom" }
 compose-ui = { module = "androidx.compose.ui:ui" }
@@ -23,3 +25,4 @@ composeBundles = [
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "android" }
 androidLibrary = { id = "com.android.library", version.ref = "android" }
+ktlint = { id = "org.jlleitschuh.gradle.ktlint" ,version.ref = "ktlint"}
