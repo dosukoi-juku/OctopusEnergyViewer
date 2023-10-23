@@ -4,10 +4,10 @@ plugins {
 }
 
 android {
-    namespace = "xyz.miyayu.testkmp.android"
+    namespace = "io.github.dosukoijuku.octopusenergychecker.android"
     compileSdk = 34
     defaultConfig {
-        applicationId = "xyz.miyayu.testkmp.android"
+        applicationId = "io.github.dosukoijuku.octopusenergychecker.android"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

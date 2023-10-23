@@ -48,7 +48,7 @@ kotlin {
 }
 
 android {
-    namespace = "xyz.miyayu.testkmp"
+    namespace = "io.github.dosukoijuku.octopusenergychecker.shared"
     compileSdk = 33
     defaultConfig {
         minSdk = 24

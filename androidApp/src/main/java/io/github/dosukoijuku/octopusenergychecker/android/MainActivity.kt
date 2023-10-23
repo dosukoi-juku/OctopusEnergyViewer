@@ -1,4 +1,4 @@
-package xyz.miyayu.testkmp.android
+package io.github.dosukoijuku.octopusenergychecker.android
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,7 +8,7 @@ import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import xyz.miyayu.testkmp.Greeting
+import io.github.dosukoijuku.octopusenergychecker.shared.Greeting
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

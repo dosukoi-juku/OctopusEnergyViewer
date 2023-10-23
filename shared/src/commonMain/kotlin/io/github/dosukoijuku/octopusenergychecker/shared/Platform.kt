@@ -1,4 +1,4 @@
-package xyz.miyayu.testkmp
+package io.github.dosukoijuku.octopusenergychecker.shared
 
 interface Platform {
     val name: String
