@@ -1,9 +1,11 @@
+import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
 }
 
-@OptIn(org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi::class)
+@OptIn(ExperimentalKotlinGradlePluginApi::class)
 kotlin {
     targetHierarchy.default()
 
