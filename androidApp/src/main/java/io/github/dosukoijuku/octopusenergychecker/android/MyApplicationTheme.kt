@@ -1,4 +1,4 @@
-package xyz.miyayu.testkmp.android
+package io.github.dosukoijuku.octopusenergychecker.android
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
