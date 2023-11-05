@@ -8,14 +8,14 @@ import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import io.github.dosukoijuku.octopusenergychecker.android.view.theme.MyApplicationTheme
+import io.github.dosukoijuku.octopusenergychecker.android.view.theme.OctopusTheme
 import io.github.dosukoijuku.octopusenergychecker.shared.Greeting
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MyApplicationTheme {
+            OctopusTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
@@ -35,7 +35,7 @@ fun GreetingView(text: String) {
 @Preview
 @Composable
 fun DefaultPreview() {
-    MyApplicationTheme {
+    OctopusTheme {
         GreetingView("Hello, Android!")
     }
 }
