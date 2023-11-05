@@ -24,6 +24,7 @@ import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import io.github.dosukoijuku.octopusenergychecker.android.R
 import io.github.dosukoijuku.octopusenergychecker.android.view.compose.home.HomeScreen
+import io.github.dosukoijuku.octopusenergychecker.android.view.compose.setting.SettingScreen
 import io.github.dosukoijuku.octopusenergychecker.android.view.theme.OctopusTheme
 
 private sealed class TopScreenRoute(
@@ -39,7 +40,7 @@ private sealed class TopScreenRoute(
 
     data object Settings : TopScreenRoute(
         route = "setting",
-        title = R.string.nav_home_title,
+        title = R.string.nav_setting_title,
         icon = Icons.Filled.Settings
     )
 }
@@ -86,7 +87,7 @@ private fun TopScreenNavHost(
             HomeScreen()
         }
         composable(TopScreenRoute.Settings.route) {
-            HomeScreen()
+            SettingScreen()
         }
     }
 }
