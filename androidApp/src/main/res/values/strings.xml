@@ -3,4 +3,8 @@
 
     <string name="nav_home_title">ホーム</string>
     <string name="nav_setting_title">設定</string>
+    <string name="title_login_status">ログイン状況</string>
+    <string name="to_check">確認する</string>
+    <string name="not_login_message">ログインされていません</string>
+    <string name="logged_in_message">%1$sさん ログイン済み</string>
 </resources>
