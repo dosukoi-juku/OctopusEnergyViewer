@@ -1,4 +1,4 @@
-package io.github.dosukoijuku.octopusenergychecker.android
+package io.github.dosukoijuku.octopusenergychecker.android.view.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -8,6 +8,7 @@ import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import io.github.dosukoijuku.octopusenergychecker.android.view.theme.MyApplicationTheme
 import io.github.dosukoijuku.octopusenergychecker.shared.Greeting
 
 class MainActivity : ComponentActivity() {

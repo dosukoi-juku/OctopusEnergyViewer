@@ -1,4 +1,4 @@
-package io.github.dosukoijuku.octopusenergychecker.android
+package io.github.dosukoijuku.octopusenergychecker.android.view.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.shape.RoundedCornerShape
