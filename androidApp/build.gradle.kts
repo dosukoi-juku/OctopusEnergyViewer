@@ -42,4 +42,6 @@ dependencies {
     implementation(project(":shared"))
     implementation(platform(libs.compose.bom))
     implementation(libs.bundles.composeBundles)
+    implementation(libs.androidx.material3)
+    implementation(libs.androidx.navigation.compose)
 }
