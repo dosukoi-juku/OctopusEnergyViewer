@@ -5,7 +5,7 @@ compose-bom = "2023.10.01"
 
 androidxActivityCompose = "1.8.0"
 
-ktlint = "11.6.1"
+ktlint = "12.1.1"
 
 [libraries]
 compose-bom = { module = "androidx.compose:compose-bom", version.ref = "compose-bom" }
